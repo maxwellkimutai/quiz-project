@@ -19,9 +19,8 @@ body {
   font-size: 40px;
 }
 .btn {
-  position: relative;
-  margin-bottom: 10px;
-  left: 43%;
+  margin: 10px;
+	float: right;
 }
 #try-again {
   display: none;
