@@ -35,7 +35,7 @@ None
 * jQuery
 * git
 ## Link To gh-pages
-insert Link
+https://maxwellkimutai.github.io/quiz-project/
 ## Support and contact details
 Contact Maxwell Kimutai on +254713510682
 ### License
