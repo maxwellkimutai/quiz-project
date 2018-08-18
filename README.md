@@ -21,7 +21,7 @@ The program lets the user take the quiz again
 * Example output: quiz is displayed again
 
 ## Setup/Installation Requirements
-* github page
+* https://github.com/maxwellkimutai/quiz-project
 * cd quiz-project
 * atom
 * edit
