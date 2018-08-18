@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Board</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="message">
+            <p class="header">JavaScript Quiz</p>
+            <p>Answer the following questions. Each question is worth 10 marks.</p>
+        </div>
+        <form id="quiz">
+            <div class="form-group">
+              <label for="question1"> Q 1 - Which built-in method combines the text of two strings and returns a new string? </label>
+              <ul>
+              <div class="form-check">
+              <input type="radio" name="answer1" class="form-check-input" value="append">
+              <label class="form-check-label" for="question1">
+                append()
+              </label>
+              </div>
+              <div class="form-check">
+              <input type="radio" name="answer1" class="form-check-input" value="concat">
+              <label class="form-check-label" for="question1">
+                concat()
+              </label>
+              </div>
+              <div class="form-check">
+              <input type="radio" name="answer1" class="form-check-input" value="attach">
+              <label class="form-check-label" for="question1">
+                attach()
+              </label>
+              </div>
+              </ul>
+            </div>
+
+              <div class="form-group">
+                <label for="question2"> Q 2 - Which built-in method returns the character at the specified index? </label>
+                <ul>
+                  <div class="form-check">
+                  <input type="radio" name="answer2" class="form-check-input" value="characterat">
+                  <label class="form-check-label" for="question2">
+                    characterAt()
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input type="radio" name="answer2" class="form-check-input" value="getcharat">
+                  <label class="form-check-label" for="question2">
+                    getCharAt()
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input type="radio" name="answer2" class="form-check-input" value="charat">
+                  <label class="form-check-label" for="question2">
+                    charAt()
+                  </label>
+                  </div>
+                </ul>
+              </div>
+
+              <div class="form-group">
+                <label for="question3"> Q 3 - Which of the following type of variable is visible only within a function where it is defined? </label>
+                <ul>
+                  <div class="form-check">
+                  <input type="radio" name="answer3" class="form-check-input" value="global">
+                  <label class="form-check-label" for="question3">
+                    global variable
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input type="radio" name="answer3" class="form-check-input" value="local">
+                  <label class="form-check-label" for="question3">
+                    local variable
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input type="radio" name="answer3" class="form-check-input" value="both">
+                  <label class="form-check-label" for="question3">
+                    Both of the above
+                  </label>
+                  </div>
+                </ul>
+              </div>
+
+              <div class="form-group">
+                <label for="question4"> Q 4 - Which built-in method reverses the order of the elements of an array?</label>
+                <ul>
+                  <div class="form-check">
+                  <input type="radio" name="answer4" class="form-check-input" value="changeorder">
+                  <label class="form-check-label" for="question4">
+                    changeOrder(order)
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input type="radio" name="answer4" class="form-check-input" value="reverse">
+                  <label class="form-check-label" for="question4">
+                    reverse()
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input type="radio" name="answer4" class="form-check-input" value="sort">
+                  <label class="form-check-label" for="question4">
+                    sort(order)
+                  </label>
+                  </div>
+                  </ul>
+              </div>
+
+              <div class="form-group">
+                <label for="question5"> Q 5 - Which of the following function of String object returns the characters in a string beginning at the specified location through the specified number of characters?</label>
+                <ul>
+                  <div class="form-check">
+                  <input type="radio" name="answer5" class="form-check-input" value="slice">
+                  <label class="form-check-label" for="question5">
+                     slice()
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input type="radio" name="answer5" class="form-check-input" value="split">
+                  <label class="form-check-label" for="question5">
+                    split()
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input type="radio" name="answer5" class="form-check-input" value="substr">
+                  <label class="form-check-label" for="question5">
+                    substr()
+                  </label>
+                  </div>
+                  </ul>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <div class="display-result" id="output">
+            <p>Your Result is <span id="score"></span></p>
+        </div>
+        <div id="try-again">
+          <button id="try-btn" type="button" name="button" class="btn btn-primary">Try Again</button>
+        </div>
+    </div>
+  </body>
+</html>
