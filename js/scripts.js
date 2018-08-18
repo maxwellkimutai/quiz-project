@@ -1,3 +1,31 @@
+// Business (or back-end) logic:
+var answers = [];
+var correctAnswers = ["concat", "charat", "local", "reverse", "substr"];
+var result = 0;
+var questions =["answer1", "answer2", "answer3", "answer4", "answer5"];
+var unanswered = 0;
+var complete;
+var incompleteQuiz = function() {
+  if(unanswered > 0) {
+    alert("You have not answered all the questions!!! ");
+    complete = false;
+
+  }
+  else {
+    complete = true;
+  }
+};
+
+var calculateScore = function() {
+  answers.forEach(function(answer) {
+    for(index = 0; index < correctAnswers.length; index++) {
+      if (answer === correctAnswers[index]) {
+        result += 10;
+      }
+    }
+  });
+};
+
 // User interface (or front-end) logic:
 
 $(document).ready(function() {
