@@ -1,0 +1,50 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	animation: Gradient 30s ease infinite;
+}
+.container {
+  background: #fffff2;
+  width: 60%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 17px 70px;
+}
+.message {
+  text-align: center;
+}
+.header {
+  font-size: 40px;
+}
+.btn {
+  position: relative;
+  margin-bottom: 10px;
+  left: 43%;
+}
+#try-again {
+  display: none;
+}
+#quiz {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#output {
+  display: none;
+  font-size: 9vw;
+  text-align: center;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
